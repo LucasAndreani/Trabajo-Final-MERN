@@ -1,0 +1,86 @@
+* {
+  text-decoration: none;
+  color: black;
+}
+
+.product-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 156px;
+  height: 212px;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  border-color: gray;
+}
+
+
+.product-box:hover {
+  transform: translateY(-3%);
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.product-box.grass {
+  border-color: green;
+}
+
+.product-box.fire {
+  border-color: red;
+}
+
+.product-box.water {
+  border-color: lightblue;
+}
+
+.product-box.electric {
+  border-color: yellow;
+}
+
+.product-box.fairy {
+  border-color: pink;
+}
+
+.product-box.normal {
+  border-color: gray;
+}
+
+.product-box.rock {
+  border-color: #905021;
+}
+
+.product-box.ghost {
+  border-color: #a186a1;
+}
+
+.product-box.psychic {
+  border-color: pink;
+}
+
+.product-box.fighting {
+  border-color:darkred ;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: auto; 
+}
+
+.type {
+  margin-bottom: 5px; 
+}
+
+.price {
+  margin-top: 0px; 
+}
+.name {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-style: bold;
+}

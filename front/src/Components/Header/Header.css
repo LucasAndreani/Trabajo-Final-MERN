@@ -1,0 +1,124 @@
+.header {
+  background-color: #E9E0CE;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  font-weight: bold;  
+}
+.left-section-header {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.black-market {
+  margin-bottom: 16px;
+}
+.mew-logo {
+  width: 160px;
+  height: 130px;
+  margin-top: 50px;
+  margin-left: 235px;
+  position: absolute;
+}
+.brand-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+  margin-bottom: 6px;
+  border-radius: 25px;
+}
+.middle-section-header {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  margin-top: 12px;
+}
+.house-icon {
+  position: absolute;
+  margin-bottom: 20px;
+  margin-left: -43px;
+  height: 25px;
+}
+.right-section-header {
+  width: 180px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.black-market {
+  font-size: 25px;
+}
+.home {
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: -60px;
+}
+.cart-icon {
+  height: 20px;
+  position: relative;
+}
+.cart-word {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 154px;
+  font-weight: bold;
+}
+.contact-word {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-weight: bold;
+}
+.door-icon {
+  height: 90px;
+  position: relative;
+  margin-left: 104px;
+}
+  @media (min-width: 360px) and (max-width: 480px) {
+      .mew-logo {
+      width: 100px;
+      height: 80px;
+      margin-top: 10px;
+      margin-left: 0px;
+      position: relative;
+      }
+      .middle-section-header {
+      display: none;
+      }
+      .right-section-header {
+      width: 140px;
+      margin-right: 10px;
+      }
+      .black-market {
+      font-size: 20px;
+      }
+      .home {
+      font-size: 16px;
+      }
+      .cart-icon {
+      height: 18px;
+      }
+      .cart-word {
+      margin-top: 30px;
+      margin-left: 118px;
+      font-size: 12px;
+      }
+      .contact-word {
+      margin-top: 30px;
+      margin-left: 22px;
+      font-size: 12px;
+      }
+      .contact-icon {
+      height: 18px;
+      margin-left: 35px;
+      }
+  }
